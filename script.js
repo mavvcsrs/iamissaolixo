@@ -44,6 +44,7 @@ const perguntas = [
             texto:"d) Todas as opções estão certas"
             afirmacao:"Todas as opções mencionadas são causas principais do descarte de lixo incorreta "
         }
+    }
     ]
 },
 {
@@ -88,7 +89,7 @@ const perguntas = [
         }
     ]
 }
-];
+[;
 
 let atual = 0;
 let perguntaAtual;
@@ -124,3 +125,4 @@ function respostaSelecionada(opcaoSelecionada) {
 caixaAlternativas.textContent = "";
 }
 mostraPergunta();
+]
